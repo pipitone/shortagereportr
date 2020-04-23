@@ -1,7 +1,7 @@
 Package: rdrugshortages
 Type: Package
 Title: Access Drug Shortage Report Databases
-Version: 1.0.0
+Version: 0.9.0
 Authors@R: person("Jon", "Pipitone", email = "jon@pipitone.ca", role = c("aut", "cre"))
 Maintainer: Jon Pipitone <jon@pipitone.ca>
 Description: Provides programmatic access to drug shortage report databases via web API.
@@ -24,7 +24,4 @@ URL: http://github.com/pipitone/rdrugshortages
 BugReports: http://github.com/pipitone/rdrugshortages/issues
 Suggests: 
     httptest,
-    testthat (>= 2.1.0),
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
+    testthat (>= 2.1.0)
